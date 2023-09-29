@@ -9,4 +9,28 @@ public class Colors
         this.pink = pink;
         this.yellow = yellow;
     }
+
+    public String getPink() {
+        return pink;
+    }
+
+    public void setPink(String pink) {
+        this.pink = pink;
+    }
+
+    public String getYellow() {
+        return yellow;
+    }
+
+    public void setYellow(String yellow) {
+        this.yellow = yellow;
+    }
+
+    @Override
+    public String toString() {
+        return "Colors{" +
+                "pink='" + pink + '\'' +
+                ", yellow='" + yellow + '\'' +
+                '}';
+    }
 }
